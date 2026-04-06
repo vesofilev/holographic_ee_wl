@@ -24,7 +24,7 @@ This repository contains the code for computing Ryu-Takayanagi minimal surfaces 
 
 ### Inverse Problem
 - `ann_inverse.py` — Inverse problem: recover f(z) from S_EE(l) (AdS-Schwarzschild)
-- `ann_inverse_gr_d3.py` — Inverse problem for Gubser-Rocha (S_EE only)
+- `ann_inverse_gr_d3.py` — Inverse problem for Gubser-Rocha (S_EE only; unstable due to exact metric degeneracy — see paper)
 - `ann_inverse_gr_d3_wl.py` — Three-network inverse with Wilson loop data
 - `ann_inverse_noise.py` — Noise robustness tests
 
