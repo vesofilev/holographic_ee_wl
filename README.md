@@ -55,6 +55,8 @@ loss has an exact flat direction and must not be used alone.
 - `verify_appendix_a.py` — Appendix A: flat-direction structure `g_n = f_n - n h_n + P_n` verified order-by-order through O(r^6), plus the Step-4 numerics
 - `verify_appendix_ops.py` — Appendix B: Einstein-Maxwell-dilaton field equations for the Gubser-Rocha background, dual operator dimension from the linearized scalar, and the free-vs-fixed near-boundary coefficient count
 - `check_bc_universality.py` — the encoded endpoint exponents (RT `1/d`, string `1/3`) and boundary values coincide with pure AdS for every geometry in the search class, i.e. they carry no interior information
+- `review_appendix_symbolic.py` — independent symbolic re-derivation of every step of Appendices A and C (Bilson map, horizon conditions, UV structure through O(r^6), Nambu-Goto identities)
+- `review_appendix_numeric.py` — end-to-end numerical check of the degeneracy theorem: deformed metrics reproduce (l, A_reg) to ~1e-13 while chi differs; Wilson-loop derivative identity verified
 
 ### Plotting
 - `plot_a_drift.py` — Boundary derivative drift without Wilson loops
